@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(./Bilder/main.jpg);
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+}
+
+.app-main {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 280px ;
+    box-shadow: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.75);
+    
+}
+
+
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.weather-body .location-details, .weather-body .weather-status {
+    margin-bottom: 15px;
+}
